@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(to right, rgb(54, 199, 192), rgb(52, 243, 211),rgb(38, 189, 248));   
+}
+.main-container{
+    /* background-color: aqua; */
+}
+
+.heading{
+    text-align: center;
+    padding-top: 5%;
+    margin: 0 auto;
+}
+.heading h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffff;
+}
+
+div.numbers{
+    text-align: center;
+    margin-top: 35px;
+    /* height: 150px; */
+}
+
+div.numbers span{
+    font-size: 150px;
+    background-color: rgb(120, 246, 250);
+    /* background: linear-gradient(to right, rgb(181, 21, 221), rgb(216, 49, 216),rgb(160, 25, 160)); */
+    width: 190px;
+    height: 250px;
+    display: inline-block;
+    color: #fff;
+}
+
+.buttons{
+    text-align: center;
+    margin: 35px;
+    /* background-color: blue; */
+}
+
+.start,.stop,.reset{
+    width: 70px;
+    /* background-color: blue; */
+    height: 30px;
+    /* border: none; */
+    margin: 15px;
+
+
+}
+
+.btn-outline-primary{
+    margin-right: 30px !important;
+    width: 100px !important;
+    border: 1px solid rgb(36, 192, 219) !important;
+    /* border: 1px solid #fff; */
+}
+
+.btn-outline-primary:hover{
+    background: linear-gradient(to left,rgb(54, 199, 192), rgb(52, 243, 211),rgb(38, 189, 248)) !important;
+    border: 1px solid #fff;
+    transition: 0.5s !important;
+}
